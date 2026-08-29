@@ -1,0 +1,17 @@
+# 忽略可执行文件、私有脚本、日志与偏移数据
+*.log
+*.elf
+*.bin
+*.asm
+*.hex
+ghostlock
+ghostlock_v*
+run_*.sh
+offsets_*.json
+kernel_img
+kernel_unpacked
+
+# 系统 / 生成物
+.DS_Store
+__pycache__/
+*.o
